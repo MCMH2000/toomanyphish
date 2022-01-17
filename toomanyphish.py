@@ -57,23 +57,23 @@ while (True):
     word2 = random.choice(secondwords)
 
     # username structures often seen on instagram
-    username1 = '{}{}{}'.format(word1, word2, random.randint(1, 99))
-    username2 = '{}{}{}'.format(word1[0:3], word2[0:4], random.randint(12, 22))
-    username3 = '{}.{}{}'.format(word1[0:3], word2[0:4], random.randint(12, 22))
-    username4 = '{}_{}_{}'.format(word1[0:3], word2[0:4], random.randint(12, 22))
-    username5 = 'x{}_{}x{}'.format(word1[0:3], word2[0:4], random.randint(12, 22))
-    username6 = 'x{}.{}x'.format(word1[0:3], word2[0:4])
-    username7 = '{}{}'.format(word1, word2[0:4])
-    username8 = '{}.{}'.format(word1[0], word2[0:4])
-    username9 = '{}.{}.{}.{}'.format(word1[0], word2[0], word1[1], word2[1])
-    username10 = 'x{}x'.format(word2[0:6])
-    username11 = '{}'.format(word1)
-    username12 = 'real{}'.format(word1)
-    username13 = '{}memes'.format(word1)
-    username14 = '{}.priv'.format(word1)
-    username15 = '{}_{}'.format(word1, word2)
-    username16 = 'thats{}'.format(word1)
-    username17 = '{}_{}{}'.format(word1, word2[0:2], random.randint(1, 22))
+    username1 = '{}{}{}'.format(word1, word2, random.randint(1, 99)) # e.g. Mariekitty99
+    username2 = '{}{}{}'.format(word1[0:3], word2[0:4], random.randint(12, 22)) # e.g. Markitt22
+    username3 = '{}.{}{}'.format(word1[0:3], word2[0:4], random.randint(12, 22)) # e.g. Mar.kitt22
+    username4 = '{}_{}_{}'.format(word1[0:3], word2[0:4], random.randint(12, 22)) # e.g. Mar_kitt_22
+    username5 = 'x{}_{}x{}'.format(word1[0:3], word2[0:4], random.randint(12, 22)) # e.g. xMar_kittx22
+    username6 = 'x{}.{}x'.format(word1[0:3], word2[0:4]) # e.g. xMar.kittx
+    username7 = '{}{}'.format(word1, word2[0:4]) # e.g. Mariekitt
+    username8 = '{}.{}'.format(word1[0], word2[0:4]) # e.g. M.kitt
+    username9 = '{}.{}.{}.{}'.format(word1[0], word2[0], word1[1], word2[1]) # e.g. M.k.a.i
+    username10 = 'x{}x'.format(word2[0:6]) # e.g. xMariex
+    username11 = '{}'.format(word1) # e.g. Marie
+    username12 = 'real{}'.format(word1) # e.g. realMarie
+    username13 = '{}memes'.format(word1) # e.g. Mariememes
+    username14 = '{}.priv'.format(word1) # e.g. Marie.priv
+    username15 = '{}_{}'.format(word1, word2) # e.g. Marie_kitty
+    username16 = 'thats{}'.format(word1) # e.g. thatsMarie
+    username17 = '{}_{}{}'.format(word1, word2[0:2], random.randint(1, 22)) # e.g. Marie_ki22
     # list with different possible username structures
     structs = [username1, username2, username3, username4, username5, username6, username7, username8, username9, username10, username11, username12, username13, username14, username15, username16, username17]
     # choose random structure
