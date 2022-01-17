@@ -3,6 +3,9 @@ A little Python script that generates random username/password pairs
 and send them to the phishing website. The attacker will have it's database
 dumped with fake data and will eventually drop it or take the site offline.
 
+Note that the username generator is optimized to produce instagram like usernames.
+Structures for usernames can be customized [in the code](/toomanyphish.py#L60).
+
 ![My IP was blocked by the attacker](img/spamuntilblocked.jpg)
 After sending thousands of fake usernames and password, the attacker blocked my IP address.
 So it was kinda effective and potentially worked as intended.
